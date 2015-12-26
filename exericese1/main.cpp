@@ -12,7 +12,7 @@ int main(int argc, char** argv)
 
 	if (image.empty())
 	{
-		return EXIT_FAILURE;
+		return EXIT_FAILURE;//sdasdasdas
 	}
 
 	cv::namedWindow("example1", cv::WINDOW_AUTOSIZE);
@@ -21,5 +21,5 @@ int main(int argc, char** argv)
 	cv::destroyWindow("example1");
 	return EXIT_SUCCESS;
 
-
+	//asdasdsadasdsakld
 }
