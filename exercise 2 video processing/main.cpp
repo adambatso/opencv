@@ -17,7 +17,7 @@ int main(int argc, char ** argv)
 
 	while (1)
 	{
-		cap >> frame;
+		cap >> frame; 			//
 		if (!frame.data) break;
 		cv::imshow("exercise2", frame);
 		if (cv::waitKey(200) >= 0) break;
